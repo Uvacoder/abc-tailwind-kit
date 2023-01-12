@@ -3,7 +3,7 @@ import AppLayout from '../../components/layout/AppLayout';
 import { LiveProvider, LiveEditor } from 'react-live';
 import EDITOR_THEME from '../../editorTheme';
 import Link from 'next/link';
-import SquarePub from '../../components/site/Pub/SquarePub';
+
 
 const confCode = `module.exports = {
   important: true,
