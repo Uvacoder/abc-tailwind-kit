@@ -86,7 +86,7 @@ const AppLayout = ({ title, desc, children }: Props) => {
                     </div>
 
                     <main
-                        className={`mx-auto ${withPub ? 'max-w-6xl' : 'max-w-7xl'} px-4 mt-8 sm:px-6  lg:px-8 h-full`}
+                        className={`mx-auto ${'max-w-6xl' : 'max-w-7xl'} px-4 mt-8 sm:px-6  lg:px-8 h-full`}
                     >
                         {children}
                     </main>
