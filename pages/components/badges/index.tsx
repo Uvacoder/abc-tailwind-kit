@@ -84,7 +84,6 @@ const BadgesPage: FC = () => {
                 component={Badge}
             />
             <ComponentLayout
-                withPub
                 title="Stroke with icon"
                 element={
                     <Badge
