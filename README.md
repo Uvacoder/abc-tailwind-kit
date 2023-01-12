@@ -1,9 +1,9 @@
 - https://github.com/vercel/next.js/blob/canary/docs/api-reference/next.config.js/react-strict-mode.md
-
+```
 module.exports = {
   reactStrictMode: true,
 }
-
+```
 
 # Tail-Kit 
 
