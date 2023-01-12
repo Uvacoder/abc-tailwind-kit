@@ -112,7 +112,6 @@ const DdmPages: FC = () => {
                 component={Button}
             />
             <ComponentLayout
-                withPub
                 containerClasses="pb-40"
                 title="With icon on items"
                 showSwitchMode={true}
