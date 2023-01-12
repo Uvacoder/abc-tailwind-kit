@@ -20,7 +20,6 @@ const AvatarPage: FC = () => {
             <ComponentLayout title="Avatar with badge" element={<Avatar withInfo={true} />} component={Avatar} />
             <ComponentLayout title="Multiple avatar" element={<MultipleAvatar />} component={MultipleAvatar} />
             <ComponentLayout
-                withPub
                 title="Multiple small avatar"
                 element={<MultipleAvatar size="small" />}
                 component={MultipleAvatar}
