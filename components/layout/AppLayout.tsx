@@ -1,7 +1,7 @@
 import FooterLight from '../kit/components/navigation/footer/FooterLight';
 import Meta from '../site/Meta';
 import AppHeader from '../site/header/AppHeader';
-import AdBanner from '../site/Pub/Banner';
+
 
 const footerLink = [
     {
@@ -72,11 +72,10 @@ export const menuTemplates = [
 interface Props {
     title: string;
     desc: string;
-    withPub?: boolean;
     children: React.ReactNode;
 }
 
-const AppLayout = ({ title, desc, children, withPub }: Props) => {
+const AppLayout = ({ title, desc, children }: Props) => {
     return (
         <div className="relative bg-white ">
             <Meta pageTitle={title} description={desc} />
@@ -91,11 +90,7 @@ const AppLayout = ({ title, desc, children, withPub }: Props) => {
                     >
                         {children}
                     </main>
-                    {withPub && (
-                        <div className="px-2 mt-8 w-80 right-0 top-0 pr-4 pt-32 xs:hidden 2xl:absolute">
-                            <AdBanner isVertical />
-                        </div>
-                    )}
+                   
                 </div>
             </div>
             <div className="dark">
