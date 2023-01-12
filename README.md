@@ -1,3 +1,10 @@
+- https://github.com/vercel/next.js/blob/canary/docs/api-reference/next.config.js/react-strict-mode.md
+
+module.exports = {
+  reactStrictMode: true,
+}
+
+
 # Tail-Kit 
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![GitHub issues](https://img.shields.io/github/issues/Charlie85270/tail-kit) <a href="https://www.tailwind-kit.com/" target="_blank">
