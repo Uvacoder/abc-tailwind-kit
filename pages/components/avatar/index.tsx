@@ -15,7 +15,7 @@ const AvatarPage: FC = () => {
             <ComponentLayout title="Simple full rounded avatar" element={<Avatar />} component={Avatar} />
             <ComponentLayout title="small full rounded avatar" element={<Avatar size="small" />} component={Avatar} />
             <ComponentLayout title="Big full rounded avatar" element={<Avatar size="big" />} component={Avatar} />
-            <ComponentLayout withPub title="Round avatar" element={<Avatar type="rounded" />} component={Avatar} />
+            <ComponentLayout title="Round avatar" element={<Avatar type="rounded" />} component={Avatar} />
             <ComponentLayout title="Square avatar" element={<Avatar type="square" />} component={Avatar} />
             <ComponentLayout title="Avatar with badge" element={<Avatar withInfo={true} />} component={Avatar} />
             <ComponentLayout title="Multiple avatar" element={<MultipleAvatar />} component={MultipleAvatar} />
