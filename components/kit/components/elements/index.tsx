@@ -54,7 +54,7 @@ const Elements: FC = () => {
         },
     ];
 
-    return <SectionDesc withPub id="elements" items={elementsSection} title="Elements" />;
+    return <SectionDesc id="elements" items={elementsSection} title="Elements" />;
 };
 
 export default Elements;
