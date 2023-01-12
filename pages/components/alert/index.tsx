@@ -120,7 +120,6 @@ const AlertPage: FC = () => {
                 component={InformationModale}
             />
             <ComponentLayout
-                withPub
                 vertical={true}
                 title="Modale with footer actions"
                 element={
