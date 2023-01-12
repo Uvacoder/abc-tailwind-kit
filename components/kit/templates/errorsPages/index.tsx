@@ -14,7 +14,6 @@ const ErrorPages = () => {
     return (
         <SectionDesc
             isTemplate={true}
-            withPub
             hasCommingSoon={true}
             id="home"
             items={homeSection}
