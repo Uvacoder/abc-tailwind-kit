@@ -240,7 +240,6 @@ const ComponentsPage: FC = () => {
                 component={SquareButton}
             />
             <ComponentLayout
-                withPub
                 title="With variant background"
                 element={<SquareButton color="variant" label="Free space" />}
                 component={SquareButton}
