@@ -53,7 +53,6 @@ const AlertPage: FC = () => {
             />
 
             <ComponentLayout
-                withPub
                 vertical={true}
                 title="Cookie alert"
                 showSwitchMode={true}
