@@ -77,6 +77,7 @@ interface Props {
 
 const AppLayout = ({ title, desc, children }: Props) => {
     return (
+        <React.Fragment>
         <div className="relative bg-white ">
             <Meta pageTitle={title} description={desc} />
             <div className="mx-auto h-full" style={{ minHeight: 85 + 'vh' }}>
@@ -97,6 +98,7 @@ const AppLayout = ({ title, desc, children }: Props) => {
                 <FooterLight links={footerLink} />
             </div>
         </div>
+      </React.Fragment>
     );
 };
 
