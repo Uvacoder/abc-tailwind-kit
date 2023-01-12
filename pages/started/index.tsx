@@ -43,7 +43,6 @@ const confCode = `module.exports = {
 const StartedPage: FC = () => {
     return (
         <AppLayout
-            withPub
             title="Configuration to use Tail-Kit for tailwind components"
             desc="Over 200 freen and open source build components for tailwind css"
         >
