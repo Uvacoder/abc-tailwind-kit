@@ -8,7 +8,7 @@ import Link from 'next/link';
 import ReactDOMServer from 'react-dom/server';
 import Toggle from '../kit/components/form/toggle/Toggle';
 import { formatHtml } from '../../utils/Utils';
-import AdBanner from '../site/Pub/Banner';
+
 
 interface Props {
     element: JSX.Element;
@@ -20,7 +20,6 @@ interface Props {
     vertical?: boolean;
     containerClasses?: string;
     fullscreen?: boolean;
-    withPub?: boolean;
 }
 
 enum STATUS {
@@ -206,22 +205,7 @@ const ComponentLayout = (props: Props) => {
                     </div>
                 </LiveProvider>
             </div>
-            {props.withPub && (
-                <div
-                    className={`bg-gray-100 shadow rounded-xl mb-4 ${
-                        props.containerClasses ? props.containerClasses : ''
-                    }`}
-                    key={props.title}
-                >
-                    <div className="flex flex-col md:flex-row items-center justify-between bg-white p-4 border rounded-xl">
-                        <p className="text-xl font-light text-gray-600 mb-2 md:mb-0">Publicity </p>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                    </div>
-                    <div className="p-4">
-                        <AdBanner />
-                    </div>
-                </div>
-            )}
+           
         </>
     );
 };
