@@ -89,7 +89,6 @@ const FooterPage: FC = () => {
                 component={Footer}
             />
             <ComponentLayout
-                withPub
                 vertical={true}
                 showSwitchMode={true}
                 title="With socials and credits"
