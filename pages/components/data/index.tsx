@@ -52,7 +52,6 @@ const DataPage = () => {
                 component={InfoNumberCard3}
             />
             <ComponentLayout
-                withPub
                 vertical={false}
                 showSwitchMode={true}
                 title="People card"
@@ -91,7 +90,6 @@ const DataPage = () => {
             />
 
             <ComponentLayout
-                withPub
                 vertical={false}
                 showSwitchMode={true}
                 title="Details task card"
