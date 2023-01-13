@@ -17,7 +17,6 @@ const Folio = () => {
                 vertical={true}
                 title="Simple folio"
                 element={<SimpleFolioHome />}
-                withPub
                 component={SimpleFolioHome}
             />
         </AppLayout>
