@@ -42,7 +42,6 @@ const FeaturePage = () => {
                 showSwitchMode={true}
                 title="With border"
                 element={<FeaturesSquare />}
-                withPub
                 component={FeaturesSquare}
             />
             <ComponentLayout
