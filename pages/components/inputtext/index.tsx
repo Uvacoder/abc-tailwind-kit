@@ -48,7 +48,6 @@ const InputTextPage: FC = () => {
             />
             <ComponentLayout
                 title="With indications"
-                withPub
                 element={
                     <InputText
                         label="Password"
