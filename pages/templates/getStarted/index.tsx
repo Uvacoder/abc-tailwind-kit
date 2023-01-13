@@ -30,7 +30,6 @@ const HomePage = () => {
                 vertical={true}
                 title="Save the planet"
                 element={<Natural3Home />}
-                withPub
                 component={Natural3Home}
             />
         </AppLayout>
