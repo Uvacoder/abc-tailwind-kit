@@ -37,7 +37,7 @@ export const IndexPage: FC = () => {
                                 <a
                                     target="_blank"
                                     rel="noreferrer"
-                                    href="https://github.com/Charlie85270/tail-kit"
+                                    href="https://github.com/uvacoder/tail-kit"
                                     className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-gray-800 bg-gray-100 hover:bg-gray-200 px-4 py-2"
                                 >
                                     <svg
