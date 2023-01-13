@@ -35,7 +35,6 @@ const ComponentsPage: FC = () => {
                 component={SimpleProfile}
             />
             <ComponentLayout
-                withPub
                 showSwitchMode={true}
                 title="With cover"
                 element={<CoverAndButtonsProfilCard />}
@@ -47,7 +46,6 @@ const ComponentsPage: FC = () => {
             <ComponentLayout
                 showSwitchMode={true}
                 title="With cover and info"
-                withPub
                 element={<CoverAndInfoProfil />}
                 component={CoverAndInfoProfil}
             />
