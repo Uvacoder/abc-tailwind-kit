@@ -17,7 +17,6 @@ const DashBoardTemplates = () => {
                 vertical={true}
                 fullscreen={true}
                 title="Simple dashboard"
-                withPub
                 element={<SimpleProjectDashboard />}
                 component={SimpleProjectDashboard}
             />
