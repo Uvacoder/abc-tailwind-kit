@@ -35,7 +35,6 @@ const TeamPage: FC = () => {
             <ComponentLayout
                 title="With background"
                 showSwitchMode={true}
-                withPub
                 element={
                     <ShadowTeam
                         img="/images/person/2.jpeg"
